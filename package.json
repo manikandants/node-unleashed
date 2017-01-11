@@ -1,0 +1,23 @@
+{
+  "name": "unleashed",
+  "version": "1.0.0",
+  "description": "Unleashed makes inventory management easier and more efficient. Take control of inventory health and scale your business with confidence.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manikandants/node-unleashed.git"
+  },
+  "keywords": [
+    "unleashed",
+    "inventory"
+  ],
+  "author": "Manikandan TS <manikandan.citeee@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manikandants/node-unleashed/issues"
+  },
+  "homepage": "https://github.com/manikandants/node-unleashed#readme"
+}
