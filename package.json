@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/manikandants/node-unleashed/issues"
   },
-  "homepage": "https://github.com/manikandants/node-unleashed#readme"
+  "homepage": "https://github.com/manikandants/node-unleashed#readme",
+  "dependencies": {
+    "request": "^2.79.0"
+  }
 }
