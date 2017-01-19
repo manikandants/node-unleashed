@@ -1,6 +1,6 @@
 {
   "name": "unleashed",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Unleashed makes inventory management easier and more efficient. Take control of inventory health and scale your business with confidence.",
   "main": "./lib/index.js",
   "scripts": {
