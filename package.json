@@ -23,5 +23,9 @@
   "dependencies": {
     "guid": "0.0.12",
     "request": "^2.79.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "should": "^11.2.1"
   }
 }
