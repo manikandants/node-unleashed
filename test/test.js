@@ -4,8 +4,8 @@ var Unleashed = require('../lib/index.js');
 
 var ul = new Unleashed({
   mode: 'sandbox',
-  apiId: '7d83c61e-b387-4ea6-babf-45b83cf4a1b1',
-  apiKey: 'lcHDEpL3way3buYgemlunU3s66NgebB48kqlBLBBPGTj9qTm2hbXdOk3MBr6gAZmDNrFSiniaoPUE0H2TVbQ=='
+  apiId: 'a7befc2b-4d6b-4b74-9eff-b18c21228849',
+  apiKey: 'vW6Hpla1Z5IJhKHzXNGlKrqSBPgAcCvMl9bJ3601012RhiYZPUPwkjSkyGRlgjE1Eki7VfhmwuTQlCTptnQ=='
 }, function(err, unleashed) {
   unleashed.SalesOrders.get({
     OrderNumber: 'SO-00000124'
