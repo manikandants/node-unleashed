@@ -1,6 +1,6 @@
 {
   "name": "unleashed",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Unleashed makes inventory management easier and more efficient. Take control of inventory health and scale your business with confidence.",
   "main": "./lib/index.js",
   "scripts": {
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/manikandants/node-unleashed#readme",
   "dependencies": {
+    "guid": "0.0.12",
     "request": "^2.79.0"
   }
 }
