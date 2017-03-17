@@ -144,5 +144,110 @@ var ul = new Unleashed({
         });
       });
     });
+    describe('CustomerTypes', function() {
+      it('getAll should get all Customer Types', function(done) {
+        unleashed.CustomerTypes.getAll({
+          
+        }, function(err, body) {
+          should(err).be.null();
+          done();
+        });
+      });
+    });
+    describe('DeliveryMethods', function() {
+      it('getAll should get all Delivery Methods', function(done) {
+        unleashed.DeliveryMethods.getAll({
+          
+        }, function(err, body) {
+          should(err).be.null();
+          done();
+        });
+      });
+    });
+    describe('PaymentTerms', function() {
+      it('getAll should get all Payment Terms', function(done) {
+        unleashed.PaymentTerms.getAll({
+          
+        }, function(err, body) {
+          should(err).be.null();
+          done();
+        });
+      });
+    });
+    describe('ProductGroups', function() {
+      it('getAll should get all Product Groups', function(done) {
+        unleashed.ProductGroups.getAll({
+          
+        }, function(err, body) {
+          should(err).be.null();
+          done();
+        });
+      });
+    });
+    describe('Products', function() {
+      it('get should get paginated Products', function(done) {
+        unleashed.Products.get({
+          
+        }, 1, function(err, body) {
+          should(err).be.null();
+          done();
+        });
+      });
+    });
+    describe('SalesOrderGroups', function() {
+      it('getAll should get all Sales Order Groups', function(done) {
+        unleashed.SalesOrderGroups.getAll({
+          
+        }, function(err, body) {
+          should(err).be.null();
+          done();
+        });
+      });
+    });
+    describe('SerialNumbers', function() {
+      it('getAll should get all Serial Numbers', function(done) {
+        unleashed.SerialNumbers.getAll({
+          
+        }, function(err, body) {
+          should(err).be.null();
+          done();
+        });
+      });
+      it('get should get paginated Serial Numbers', function(done) {
+        unleashed.SerialNumbers.get({
+          
+        }, 1, function(err, body) {
+          should(err).be.null();
+          done();
+        });
+      });
+      it('getById should get Serial Number by id', function(done) {
+        unleashed.SerialNumbers.getById({
+          
+        }, '7a6c635b-532c-4478-9d10-3ea8cc2c5f92', function(err, body) {
+          should(err).be.null();
+          done();
+        });
+      });
+    });
+    describe('ShippingCompanies', function() {
+      it('getAll should get all Shipping Companies', function(done) {
+        unleashed.ShippingCompanies.getAll({
+          
+        }, function(err, body) {
+          console.log(body);
+          should(err).be.null();
+          done();
+        });
+      });
+      it('getById should get Shipping Company by id', function(done) {
+        unleashed.ShippingCompanies.getById({
+          
+        }, 'd9b36f62-e420-42f6-945d-316b4186a08d', function(err, body) {
+          should(err).be.null();
+          done();
+        });
+      });
+    });
   });
 });
