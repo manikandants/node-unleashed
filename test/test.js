@@ -235,7 +235,6 @@ var ul = new Unleashed({
         unleashed.ShippingCompanies.getAll({
           
         }, function(err, body) {
-          console.log(body);
           should(err).be.null();
           done();
         });
@@ -244,6 +243,90 @@ var ul = new Unleashed({
         unleashed.ShippingCompanies.getById({
           
         }, 'd9b36f62-e420-42f6-945d-316b4186a08d', function(err, body) {
+          should(err).be.null();
+          done();
+        });
+      });
+    });
+    describe('StockOnHand', function() {
+      it('getAll should get all Stock on hand', function(done) {
+        unleashed.StockOnHand.getAll({
+          
+        }, function(err, body) {
+          should(err).be.null();
+          done();
+        });
+      });
+      it('getById should get Stock on hand by id', function(done) {
+        unleashed.StockOnHand.getById({
+          
+        }, '52c66c7f-dbf4-458e-a738-eb2b22da59d8', function(err, body) {
+          should(err).be.null();
+          done();
+        });
+      });
+      it('getByIdInAllWarehouses should get Stock on all warehouses by id', function(done) {
+        unleashed.StockOnHand.getByIdInAllWarehouses({
+          
+        }, '52c66c7f-dbf4-458e-a738-eb2b22da59d8', function(err, body) {
+          should(err).be.null();
+          done();
+        });
+      });
+    });
+    describe('SupplierReturnReasons', function() {
+      it('getAll should get all Supplier Return Reasons', function(done) {
+        unleashed.SupplierReturnReasons.getAll({
+          
+        }, function(err, body) {
+          should(err).be.null();
+          done();
+        });
+      });
+    });
+    describe('Taxes', function() {
+      it('getAll should get all Taxes', function(done) {
+        unleashed.Taxes.getAll({
+          
+        }, function(err, body) {
+          should(err).be.null();
+          done();
+        });
+      });
+    });
+    describe('UnitOfMeasures', function() {
+      it('getAll should get all Taxes', function(done) {
+        unleashed.UnitOfMeasures.getAll({
+          
+        }, function(err, body) {
+          should(err).be.null();
+          done();
+        });
+      });
+    });
+    describe('Warehouses', function() {
+      it('getAll should get all Taxes', function(done) {
+        unleashed.UnitOfMeasures.getAll({
+          
+        }, function(err, body) {
+          should(err).be.null();
+          done();
+        });
+      });
+    });
+    describe('WarehouseStockTransfers', function() {
+      it('getAll should get all Warehouse Stock Transfers', function(done) {
+        unleashed.WarehouseStockTransfers.getAll({
+          
+        }, function(err, body) {
+          should(err).be.null();
+          done();
+        });
+      });
+      it('getById should get Warehouse Stock Transfers by id', function(done) {
+        unleashed.WarehouseStockTransfers.getById({
+          
+        }, '5c800652-5b67-439b-8ac9-55a6b541ec0a', function(err, body) {
           should(err).be.null();
           done();
         });
